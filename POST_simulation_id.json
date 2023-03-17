@@ -1,0 +1,87 @@
+{
+  "SimulationType": "ORA_CN_ESTIMATION",
+  "OrgId":"xxxxxxxxxxxxxxxxxx",
+  "ProcessingStatus": "ORA_CN_READY",
+  "Transactions": [
+                    {
+                    "TransactionAmountSource": "#CREDITAMOUNTQ1#",
+                    "TransactionNumber": "Q1",
+                    "TransactionType": "ORDER 1",
+                     "EventDate": "#Q1_DATE#",
+                    "Credits": [
+                                {
+                                 "ObjectStatus" :"CLASSIFIED",
+                                 "CalculationCurrencyCode": "USD",
+                                 "CreditedParticipantId": "#PARTICIPANTID#",
+                                 "CreditCategoryId" :"CreditCategoryID",
+                                 "CreditAmount": "#CREDITAMOUNTQ1#"
+                                }
+                              ],
+                    "SimulationTransactionDFF": [
+                                                 {
+                                                    "employeeId": "EmployeeID"
+                                                 }
+                                               ]
+                   },
+                    {
+                    "TransactionAmountSource": "#CREDITAMOUNTQ2#",
+                    "TransactionNumber": "Q2",
+                    "TransactionType": "ORDER 1",
+                     "EventDate": "#Q2_DATE#",
+                    "Credits": [
+                                {
+                                 "ObjectStatus" :"CLASSIFIED",
+                                 "CalculationCurrencyCode": "USD",
+                                 "CreditedParticipantId": "#PARTICIPANTID#",
+                                 "CreditCategoryId" :"CreditCategoryID",
+                                 "CreditAmount": "#CREDITAMOUNTQ2#"
+                                }
+                              ],
+                    "SimulationTransactionDFF": [
+                                                 {
+                                                    "employeeId": "EmployeeID"
+                                                 }
+                                               ]
+                   },
+                    {
+                    "TransactionAmountSource": "#CREDITAMOUNTQ3#",
+                    "TransactionNumber": "Q3",
+                    "TransactionType": "ORDER 1",
+                     "EventDate": "#Q3_DATE#",
+                    "Credits": [
+                                {
+                                 "ObjectStatus" :"CLASSIFIED",
+                                 "CalculationCurrencyCode": "USD",
+                                 "CreditedParticipantId": "#PARTICIPANTID#",
+                                 "CreditCategoryId" :"CreditCategoryID",
+                                 "CreditAmount": "#CREDITAMOUNTQ3#"
+                                }
+                              ],
+                    "SimulationTransactionDFF": [
+                                                 {
+                                                    "employeeId": "EmployeeID"
+                                                 }
+                                               ]
+                   },
+                   {
+                    "TransactionAmountSource":"#CREDITAMOUNTQ4#",
+                    "TransactionNumber": "Q4",
+                    "TransactionType": "ORDER 1",
+                     "EventDate": "#Q4_DATE#",
+                    "Credits": [
+                                {
+                                 "ObjectStatus" :"CLASSIFIED",
+                                 "CalculationCurrencyCode": "USD",
+                                 "CreditedParticipantId": "#PARTICIPANTID#",
+                                 "CreditCategoryId" :"CreditCategoryID",
+                                 "CreditAmount": "#CREDITAMOUNTQ4#"
+                                }
+                              ],
+                    "SimulationTransactionDFF": [
+                                                 {
+                                                    "employeeId": "EmployeeID"
+                                                 }
+                                               ]
+                   }
+                 ]
+}
